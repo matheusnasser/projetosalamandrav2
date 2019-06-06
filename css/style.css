@@ -22,12 +22,13 @@
  color: black;
  font-family: 'Exo 2', sans-serif;
  font-size: 3.2rem;
- margin-top: -10rem;
- margin-bottom: 2rem;  
+ margin-top: -13rem;
+ margin-bottom: -1.2rem;  
 }
 
 .body img{
-  height: 125px;
+  height: 130px;
+
  }
 
 
@@ -111,8 +112,8 @@ body {
 
 
 .menu .button{
-  border: 2px solid black;
-  border-radius: 2em;
+  border: 5px solid black;
+  border-radius: 1em;
   text-decoration: none;
   background-color: black;
 }
@@ -126,19 +127,25 @@ body {
 
 
 .card .card-body h5{
-  border: 1px solid black;  
+  border: 1px solid beige;  
+  border-radius: 2px;
   background-color: black;
-  border-radius: 2em;
+  font-family: 'Exo 2', sans-serif;
+  color: white;
 }
 
 
 .card .card-body p{
-  border: 1px solid black;  
+  border: 2px solid white; 
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  border-spacing: 200rem;
+
   
 }
 
 
 .card-body{
-  border: 2px solid black;
-  background-color: beige;
+  border: 2px solid white;
+  background-color: black;
 }
