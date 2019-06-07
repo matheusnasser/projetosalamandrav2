@@ -20,7 +20,7 @@
 
 .body h1{
  color: black;
- font-family: 'Exo 2', sans-serif;
+ font-family: 'Staatliches', cursive;
  font-size: 3.2rem;
  margin-top: -13rem;
  margin-bottom: -1.2rem;  
@@ -83,11 +83,11 @@
 /* Main styles */
 body {
   margin-top: 15rem;
-  color: #999;
+  color: red;
   font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
   text-align: center;
   /* img size is 50x50 */
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+  /* background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0; */
   -webkit-animation: bg-scrolling-reverse 0.92s infinite;
   /* Safari 4+ */
   -moz-animation: bg-scrolling-reverse 0.92s infinite;
@@ -100,6 +100,7 @@ body {
   -moz-animation-timing-function: linear;
   -o-animation-timing-function: linear;
   animation-timing-function: linear;
+  background-color: red;
 }
 /* body::before {
   content: "PROJETO SALAMANDRA";
@@ -159,8 +160,8 @@ body {
 }
 
 .card{
-  width: 90%;
-  margin-left: 2rem;
+  width: 100%;
+  
 }
 
 .card-body{
