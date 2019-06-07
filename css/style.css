@@ -113,7 +113,7 @@ body {
 
 .menu .button{
   border: 5px solid black;
-  border-radius: 1em;
+  border-radius:;
   text-decoration: none;
   background-color: black;
 }
@@ -124,10 +124,27 @@ body {
   color: white;
 
 }
+.menu{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
+
+
+.dmenu .button{
+  border: 5px solid black;
+  border-radius:;
+  text-decoration: none;
+  background-color: black;
+}
+
+.dmenu .button a{
+  text-decoration: none;
+  font-family: 'Exo 2', sans-serif;
+  color: white;
+}
 
 .card .card-body h5{
-  border: 1px solid beige;  
   border-radius: 2px;
   background-color: black;
   font-family: 'Exo 2', sans-serif;
@@ -136,23 +153,25 @@ body {
 
 
 .card .card-body p{
-  border: 2px solid white; 
-  color: white;
+
+  color: black;
   font-family: 'Exo 2', sans-serif;
-  border-spacing: 200rem;
 }
 
+.card{
+  width: 90%;
+  margin-left: 2rem;
+}
 
 .card-body{
   border: 2px solid white;
-  background-color: black;
+  background-color: #ffffff;
 }
 
 
 .container-fluid{
   border: 2px solid black;
   background-color: white;
-  margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
